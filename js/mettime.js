@@ -1,6 +1,6 @@
 function mettime() {
-	var MetTime = new Date('2020/01/24 00:00:00');
-	var LoveTime = new Date('2020/02/14 00:00:00');
+	var MetTime = new Date('2017/07/07 00:00:00');
+	var LoveTime = new Date('2021/06/8 00:00:00');
 	var NowTime = new Date()
 	var mt = NowTime.getTime() - MetTime.getTime();
 	var lt = NowTime.getTime() - LoveTime.getTime();

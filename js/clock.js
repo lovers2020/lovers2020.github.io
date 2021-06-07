@@ -8,13 +8,13 @@ function greetings() {
 	var clk = new Date();
 	var hour = clk.getHours();
 	if(hour >= 5 && hour < 11) {
-		$('#greetings').html('Good Morning,<i class="fa fa-coffee"></i>,CX');
+		$('#greetings').html('Good Morning,<i class="fa fa-coffee"></i>,XY');
 	}
 	else if(hour >= 11 && hour < 17) {
-		$('#greetings').html('Good Afternoon,<i class="fa fa-book"></i>,CX');
+		$('#greetings').html('Good Afternoon,<i class="fa fa-book"></i>,XY');
 	}
 	else {
-		$('#greetings').html('Good Evening,<i class="fa fa-moon-o"></i>,CX') ;
+		$('#greetings').html('Good Evening,<i class="fa fa-moon-o"></i>,XY') ;
 	}
 }
 
